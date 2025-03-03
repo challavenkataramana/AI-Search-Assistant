@@ -37,7 +37,7 @@ export const Search = () => {
       <div className="mt-5 text-black justify-center p-4 flex flex-col lg:flex-row gap-4 text-xl items-center">
         <input
           type="text"
-          className="border-2 bg-gray-200 rounded-lg border-gray-500 p-2 focus:outline-none focus:border-blue-500 transition-all"
+          className="border-2 bg-gray-200 w-full lg:w-70 rounded-lg border-gray-500 p-2 focus:outline-none focus:border-blue-500 transition-all"
           placeholder="Search..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
